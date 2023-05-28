@@ -1,7 +1,8 @@
+// @ts-nocheck
 import React, { useState } from "react";
-import "./App.css";
 import AuthPage from "./AuthPage";
 import ChatsPage from "./ChatsPage";
+import "./App.css";
 
 function App() {
   const [user, setUser] = useState(undefined);
